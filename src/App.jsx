@@ -1,10 +1,10 @@
-import HelloWorld from "./HelloWorld"
+import ListEmployeesComponent from "./components/ListEmployeesComponent"
 
 function App() {
 
   return (
     <>
-      <HelloWorld />
+      <ListEmployeesComponent />
     </>
   )
 }
