@@ -30,7 +30,7 @@ const EmployeeComponent = () => {
                 console.error(error);
             })
         }
-    })
+    }, [id])
 
     function saveOrUpdateEmployee(e) {
         e.preventDefault();
